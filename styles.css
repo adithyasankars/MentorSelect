@@ -49,7 +49,7 @@ nav #logo{
     
 }
 
-ul{
+nav ul{
 
     width: 20%;
     display: inline-flex;
@@ -58,7 +58,7 @@ ul{
     margin-left: 240px;
 }
 
-ul li {
+nav ul li {
     padding: 12px 30px;
     color: var(--primary-color);
     font-size: 18px;
@@ -173,6 +173,7 @@ ul li {
     text-align: left;
     font-size: 14px;
     font-weight: 600;
+    list-style: none;
 
 }
 
@@ -198,11 +199,12 @@ ul li {
 
 /* ----------------------------------------------------footer-------------------------------------------------------- */
 
-footer{
+.footer{
     width: 100%;
     height: 150px;
     background: var(--footer-background);
     color: var(--footer-text-color);
+    display: flex;
 
 }
 .footer-main{
@@ -213,6 +215,7 @@ footer{
 .footer-2{
     width: 20%;
     text-decoration: none;
+    display: block;
 }
 
 .footer-3{
