@@ -1,0 +1,220 @@
+:root {
+    --primary-color: #331A9A;
+    --navbar-background: #E4DDFF;
+    --body-text-color: #1E1E1E;
+    --skills-text-color: #565656;
+    --footer-background: #1E1E1E;
+    --footer-text-color: #FFFFFF;
+
+    --h1-font-size: 32px;
+    --h1-font-weight: 500;
+    --h2-font-size: 20px;
+    --h2-font-weight: 400;
+    --p-font-size: 16px;
+    --p-font-weight: 400;
+}
+
+
+h1 {
+    font-size: var(--h1-font-size);
+    font-weight: var(--h1-font-weight);
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+    font-weight: var(--h2-font-weight);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #e6dcff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav #logo{
+    width: 100%;
+    padding: 30px 0px 30px 60px;
+    
+}
+
+ul{
+
+    width: 20%;
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+    margin-left: 240px;
+}
+
+ul li {
+    padding: 12px 30px;
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+#signout-button {
+    background-color: #fff;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 12px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    margin-right: 12px;
+}
+  
+#signout-button:hover {
+    background-color: darken(var(--primary-color), 10%);
+}
+
+/* ----------------------------------------------heading-------------------------------------------------------------------- */
+
+.heading {
+    padding: 60px; 
+}
+
+.heading h1{
+    margin-bottom: 16px;
+}
+
+.heading span {
+    font-weight: 600;
+}
+
+.mentors-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 20px;
+    margin-bottom: 50px;
+
+}
+
+.mentor-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 340px;
+    padding: 20px;
+    text-align: center;
+}
+
+.mentors-info{
+    width: 100%;
+    height: 25%;
+    display: flex;
+
+}
+
+
+.mentor-details{
+    width:70%;
+}
+
+.mentor-details h3{
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+.mentor-details p{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.mentor-img{
+    width: 30%;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.mentors-skill{
+  width: 100%;
+  height: 60%;
+  text-align: left;
+  padding: 8px 24px 12px;
+  color: #565656;
+  font-size: 16px;
+  font-weight: 400;
+
+
+}
+
+.mentors-skill ul{
+    display: block;
+    margin: 20px 20px 20px 0px;
+
+}
+
+.mentors-skill ul li{
+    padding: 2px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.schedule-btn{
+    width: 100%;
+    height: 15%;
+    align-content: center;
+
+}
+
+#schedule-button {
+    background-color: #fff;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 12px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    margin-right: 100px;
+}
+
+/* ----------------------------------------------------footer-------------------------------------------------------- */
+
+footer{
+    width: 100%;
+    height: 150px;
+    background: var(--footer-background);
+    color: var(--footer-text-color);
+
+}
+.footer-main{
+    padding: 30px 44px 44px;
+    width: 60%;
+}
+
+.footer-2{
+    width: 20%;
+    text-decoration: none;
+}
+
+.footer-3{
+    width: 20%;
+}
