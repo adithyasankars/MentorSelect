@@ -303,3 +303,35 @@ nav ul li a {
 .footer-3 ul li a:hover {
     color: var(--primary-color);
 }
+
+@media (max-width:412px) {
+ 
+nav{
+    display: inline-block;
+    background: var(--navbar-background);
+    height: 150px;
+    max-width: 412px;
+
+}
+
+nav #logo{
+
+    width: 100%;
+    padding: 30px 0px 10px 30px;
+
+
+}
+
+nav #nav-ul{
+    width: 75%;
+    padding-left: 19px;
+
+}
+
+.signout-btn{
+    width: 20%;
+
+} 
+
+   
+}
