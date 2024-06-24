@@ -354,6 +354,8 @@ nav ul li a {
     margin: 10px 0;
     font-size: 20px;
     font-weight: 600;
+    height: 10%;
+    width: 100%;
 }
 
 .mentor-info{
@@ -361,8 +363,27 @@ nav ul li a {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    height: 20%;
+    display: flex;
+    width: 100%;
 }
 
+#mentor_profile{
+    width: 100%;
+}
+.mentor-img{
+    width: 30%;
+}
+
+#mentor_img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+#mentor_name{
+    width: 70%;
+}
 @media (max-width:412px) {
  
 nav{
