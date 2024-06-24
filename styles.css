@@ -51,13 +51,24 @@ nav{
 
 nav #logo{
     width: 60%;
+    height: 100%;
     padding: 30px 0px 30px 60px;
     
 }
 
-nav #nav-ul{
-    width: 30%;
-    padding-left: 270px;
+.nav-links{
+    width: 40%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.nav-links #nav-ul{
+    width: 60%;
+    
+
+    
 
 }
 
@@ -65,26 +76,27 @@ nav ul{
     display: inline-flex;
     list-style: none;
     text-align: center;
+    padding-left: 200px;
+    
 }
 
 nav ul li {
     padding: 12px 12px;
-    color: var(--body-text-color);
     font-size: 18px;
     font-weight: 400;
     text-align: right;
 }
 
 nav ul li a {
-    color:var(--body-text-color);
+    color:var(--primary-color);
     text-decoration: none;
     transition: color 0.3s;
 }
 
 
 .signout-btn{
-    width: 10%;
-    padding-left: 18px;
+    width: 40%;
+    padding-left: 60px;
     
 }
 
@@ -222,34 +234,7 @@ nav ul li a {
 
 /* ----------------------------------------------------footer-------------------------------------------------------- */
 
-/* .footer{
-    width: 100%;
-    height: 150px;
-    background: var(--footer-background);
-    color: var(--footer-text-color);
-    display: flex;
 
-}
-.footer-main{
-    padding: 30px 44px 44px;
-    width: 60%;
-}
-
-.footer-2 ul,
-.footer-3 ul {
-    width: 100%;
-    display: block;
-    padding: 30px;
-}
-
-.footer-2 ul li,
-.footer-3 ul li{
-    list-style: none;
-    text-decoration: none;
-    color: var(--footer-text-color);
-    padding: 3px;
-
-} */
 
 .footer {
     width: 100%;
@@ -309,7 +294,7 @@ nav ul li a {
 nav{
 
     background: var(--navbar-background);
-    height: 130px;
+    height: 150px;
     max-width: 412px;
     display: block;
     
@@ -331,13 +316,16 @@ nav #logo{
     height: 50%;
 }
 
-nav #nav-ul{
+.nav-links #nav-ul{
     width: 50%;
     padding-left: 19px;
     
 
 }
 
+nav ul{
+    padding-left: 0;
+}
 
 .signout-btn{
     width: 50%;
