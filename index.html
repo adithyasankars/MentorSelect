@@ -271,6 +271,77 @@
             
         </div>
 
+        <!-- ------------------------------------------------------model------------------------------------------------------ -->
+
+        <div class="modal-content">
+            <div class="modal-heading" id="modal_heading">
+                <h2>Schedule Meeting</h2>
+            </div>
+            <div class="mentor-info" id="mentor_info">
+                <div class="mentor-name" id="mentor_name">
+                    <div class="mentor-img">
+                        <img id="mentor_img" src="img/1.jpg" alt="">
+                    </div>
+                    <div class="mentor-name" id="mentor_name">
+                        <h3>Alexis W</h3>
+                        <p>7+ years experience</p>
+
+                    </div>
+                    <div class="mentor-skills">
+                        <ul>
+                            <li id="js">Javascript</li>
+                            <li id="html">HTML</li>
+                            <li id="css">CSS</li>
+                            <li id="react">ReactJS</li>
+                            <li id="vue">VueJS</li>   
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mentor-session">
+                <p>SESSION TYPE</p>
+                <div class="session-type">
+                    <input type="radio" id="single_session" value="single">
+                    <label for="single">Single session</label><br>
+                    <input type="radio" id="recurring_session" value="recurring">
+                    <label for="recurring">Recurring</label><br>
+                </div>
+                  
+            </div>
+            <div class="mentor-time">
+                <div class="mentor-date">
+                    <label  id="mentor_date" for="date">DATE</label>
+                    <input type="date" id="date">
+                </div>
+
+                <div class="mentor-duration">
+                    <label for="mentor_duration">DURATION</label>
+                    
+                    <select name="time" id="mentor_duration">
+                        <option value="1">1 hours</option>
+                        <option value="2">2 hours</option>
+                        <option value="3">3 hours</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class="mentor-payment">
+                <div id="payment-line"></div>
+                <h3>PAYMENT DUE</h3>
+                <div id="mentor_payment">
+                    <p>₹2400</p>
+                </div>
+            </div>
+            <div class="mentor-button">
+                <div id="mentor_schedule">
+                    <button>Schedule</button>
+                </div>
+                <div id="mentor_cancel">
+                    <button>Cancel</button>
+                </div>
+            </div>
+        </div>
+
         <!-- ------------------------------------------------footer----------------------------------------------------------- -->
 
         <div class="footer ">
