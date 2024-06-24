@@ -197,6 +197,10 @@ nav ul li a {
 
 }
 
+.mentors-skill #skill-text{
+    font-weight: 700;
+}
+
 .mentors-skill ul{
     display: block;
     margin: 20px 20px 20px 0px;
@@ -209,8 +213,52 @@ nav ul li a {
     font-size: 14px;
     font-weight: 600;
     list-style: none;
+    display: inline-block;
 
 }
+
+#js{
+    background-color: 	rgb(209, 177, 11,0.1);
+    color: 	rgb(209, 177, 11);
+    width: 80px;
+}
+
+#html{
+    color: #E59112;
+    background-color: rgb(229, 145, 18,0.1);
+    width: 60px;
+}
+
+#css{
+    color: #10BADF;
+    background-color: rgb(16, 186, 223,0.1);
+    width: 50px;
+}
+
+#react{
+    background-color: rgb(11, 149, 209,0.1);
+    color: #0B95D1;
+    width: 70px;
+}
+
+#vue{
+    background-color: rgb(12, 174, 57,0.1);
+    color: #0CAE39;
+    width: 70px;
+
+}
+
+#js,
+#html,
+#css,
+#react,
+#vue{
+    height: 10%;
+    text-align: center;
+    margin: 8px;
+    border-radius: 10px;
+}
+
 
 .schedule-btn{
     width: 100%;
