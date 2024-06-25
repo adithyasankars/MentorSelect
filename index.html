@@ -38,6 +38,77 @@
         
         </nav>
 
+        <!-- ------------------------------------------------------model------------------------------------------------------ -->
+
+        <div class="modal-content" id="myModal">
+            <div class="modal-heading" id="modal_heading">
+                <h2>Schedule mentoring</h2>
+            </div>
+            <div class="mentor-info" id="mentor_info">
+                <div id="mentor-profile">
+                    <div class="mentor-image">
+                        <img id="mentor_img" src="img/1.jpg" alt="">
+                    </div>
+                    <div class="mentor-name" id="mentor_name">
+                        <h3>Alexis W</h3>
+                        <p>7+ years experience</p>
+    
+                    </div>
+                </div>
+                <div class="mentor-skills">
+                    <ul>
+                        <li id="js">Javascript</li>
+                        <li id="html">HTML</li>
+                        <li id="css">CSS</li>
+                        <li id="react">ReactJS</li>
+                        <li id="vue">VueJS</li>   
+                    </ul>
+                </div>
+            </div>
+            <div class="mentor-session" id="mentor_session">
+                <p>SESSION TYPE</p>
+                <div class="session-type">
+                    <input type="radio" id="single_session" value="single">
+                    <label for="single">Single session</label><br>
+                    <input type="radio" id="recurring_session" value="recurring">
+                    <label for="recurring">Recurring</label><br>
+                </div>
+                  
+            </div>
+            <div class="mentor-time"  id="mentor_time">
+                <div class="mentor-date" id="mentor_date">
+                    <label  for="date">DATE</label>
+                    <input type="date" id="date">
+                </div>
+
+                <div class="mentor-duration" id="mentor_duration">
+                    <label for="mentor_duration">DURATION</label>
+                    
+                    <select name="time" id="time_dropdown">
+                        <option value="1">1 hours</option>
+                        <option value="2">2 hours</option>
+                        <option value="3">3 hours</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class="mentor-payment">
+                <div id="payment-line"></div>
+                <p>PAYMENT DUE</p>
+                <div id="mentor_payment">
+                    <h3>₹2400</h3>
+                </div>
+            </div>
+            <div class="mentor-button">
+                <div id="mentor_schedule">
+                    <button>Schedule</button>
+                </div>
+                <div id="mentor_cancel">
+                    <button>Cancel</button>
+                </div>
+            </div>
+        </div>
+
         <!-- ----------------------------------------------heading-------------------------------------------------------- -->
 
         <div class="heading">
@@ -269,77 +340,6 @@
             </div>
             
             
-        </div>
-
-        <!-- ------------------------------------------------------model------------------------------------------------------ -->
-
-        <div class="modal-content" id="myModal">
-            <div class="modal-heading" id="modal_heading">
-                <h2>Schedule mentoring</h2>
-            </div>
-            <div class="mentor-info" id="mentor_info">
-                <div id="mentor-profile">
-                    <div class="mentor-image">
-                        <img id="mentor_img" src="img/1.jpg" alt="">
-                    </div>
-                    <div class="mentor-name" id="mentor_name">
-                        <h3>Alexis W</h3>
-                        <p>7+ years experience</p>
-    
-                    </div>
-                </div>
-                <div class="mentor-skills">
-                    <ul>
-                        <li id="js">Javascript</li>
-                        <li id="html">HTML</li>
-                        <li id="css">CSS</li>
-                        <li id="react">ReactJS</li>
-                        <li id="vue">VueJS</li>   
-                    </ul>
-                </div>
-            </div>
-            <div class="mentor-session" id="mentor_session">
-                <p>SESSION TYPE</p>
-                <div class="session-type">
-                    <input type="radio" id="single_session" value="single">
-                    <label for="single">Single session</label><br>
-                    <input type="radio" id="recurring_session" value="recurring">
-                    <label for="recurring">Recurring</label><br>
-                </div>
-                  
-            </div>
-            <div class="mentor-time"  id="mentor_time">
-                <div class="mentor-date" id="mentor_date">
-                    <label  for="date">DATE</label>
-                    <input type="date" id="date">
-                </div>
-
-                <div class="mentor-duration" id="mentor_duration">
-                    <label for="mentor_duration">DURATION</label>
-                    
-                    <select name="time" id="time_dropdown">
-                        <option value="1">1 hours</option>
-                        <option value="2">2 hours</option>
-                        <option value="3">3 hours</option>
-                    </select>
-
-                </div>
-            </div>
-            <div class="mentor-payment">
-                <div id="payment-line"></div>
-                <p>PAYMENT DUE</p>
-                <div id="mentor_payment">
-                    <h3>₹2400</h3>
-                </div>
-            </div>
-            <div class="mentor-button">
-                <div id="mentor_schedule">
-                    <button>Schedule</button>
-                </div>
-                <div id="mentor_cancel">
-                    <button>Cancel</button>
-                </div>
-            </div>
         </div>
 
         <!-- ------------------------------------------------footer----------------------------------------------------------- -->
