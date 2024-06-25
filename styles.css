@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 :root {
     --primary-color: #331A9A;
     --navbar-background: #E4DDFF;
@@ -36,7 +38,8 @@ a{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Inter;
+    
     
 }
 
@@ -347,6 +350,7 @@ nav ul li a {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    margin-bottom: 120px;
 
 }
 
@@ -363,13 +367,18 @@ nav ul li a {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    height: 20%;
+    height: 16%;
     display: flex;
     width: 100%;
 }
 
-#mentor_profile{
+#mentor_info{
+    display: inline-block;
+}
+
+#mentor-profile{
     width: 100%;
+    display: flex;
 }
 .mentor-img{
     width: 30%;
@@ -384,6 +393,114 @@ nav ul li a {
 #mentor_name{
     width: 70%;
 }
+.metor-skills{
+    width: 100%;
+
+}
+.mentor-skills ul{
+    display: flex;
+    list-style: none;
+}
+
+#mentor_session{
+    width: 100%;
+    height: 10%;
+}
+
+.mentor-session p{
+    margin: 20px 0 15px;
+    font-weight: 600;
+    color: var(--body-text-color);
+}
+.session-type{
+    width: 50%;
+    display: inline-flex;
+    gap:10px;
+}
+
+#mentor_time{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 20px;
+    
+}
+
+.mentor-time{
+    display: flex;
+
+}
+.mentor-date,
+.mentor-duration{
+    width:25%
+
+}
+
+#mentor_date,
+#mentor_duration{
+    display: grid;
+    margin-right: 20px;
+
+}
+
+.mentor-payment{
+    width: 30%;
+    height: 10%;
+    background: var(--navbar-background);
+    color: var(--primary-color);
+    border-radius: 0 0 5px 5px;
+}
+#payment-line{
+    background-color: var(--primary-color);
+    height: 5%;
+    outline: none;
+    border: none;
+
+}
+
+.mentor-payment p{
+    padding: 5px;
+    font-weight: 700;
+
+}
+
+.mentor-payment h3{
+    padding: 5px;
+    font-size: 24px;
+}
+
+.mentor-button{
+    display: flex;
+    margin: 30px 0;
+}
+
+.mentor-button button{
+    background-color:var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+
+}
+#mentor_schedule button:hover{
+    background: #fff;
+    color: var(--primary-color);
+
+}
+
+#mentor_cancel button{
+    background: #fff;
+    color:var(--primary-color);
+    border: 1px solid var(--primary-color);
+
+}
+
+
+
 @media (max-width:412px) {
  
 nav{

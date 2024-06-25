@@ -273,7 +273,7 @@
 
         <!-- ------------------------------------------------------model------------------------------------------------------ -->
 
-        <div class="modal-content">
+        <div class="modal-content" id="myModal">
             <div class="modal-heading" id="modal_heading">
                 <h2>Schedule mentoring</h2>
             </div>
@@ -298,7 +298,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="mentor-session">
+            <div class="mentor-session" id="mentor_session">
                 <p>SESSION TYPE</p>
                 <div class="session-type">
                     <input type="radio" id="single_session" value="single">
@@ -308,16 +308,16 @@
                 </div>
                   
             </div>
-            <div class="mentor-time">
-                <div class="mentor-date">
-                    <label  id="mentor_date" for="date">DATE</label>
+            <div class="mentor-time"  id="mentor_time">
+                <div class="mentor-date" id="mentor_date">
+                    <label  for="date">DATE</label>
                     <input type="date" id="date">
                 </div>
 
-                <div class="mentor-duration">
+                <div class="mentor-duration" id="mentor_duration">
                     <label for="mentor_duration">DURATION</label>
                     
-                    <select name="time" id="mentor_duration">
+                    <select name="time" id="time_dropdown">
                         <option value="1">1 hours</option>
                         <option value="2">2 hours</option>
                         <option value="3">3 hours</option>
@@ -327,9 +327,9 @@
             </div>
             <div class="mentor-payment">
                 <div id="payment-line"></div>
-                <h3>PAYMENT DUE</h3>
+                <p>PAYMENT DUE</p>
                 <div id="mentor_payment">
-                    <p>₹2400</p>
+                    <h3>₹2400</h3>
                 </div>
             </div>
             <div class="mentor-button">
